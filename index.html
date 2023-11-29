@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="zh">
 
 <head>
@@ -7,21 +7,24 @@
     <title>原神？启动！</title>
     <link rel="stylesheet" href="style.css">
     <link id="icon" rel="shortcut icon" href="./favicon.ico"/>
-    <script>
-        document.addEventListener('DOMContentLoaded', (event) => {
-            setTimeout(() => {
-                const audio = new Audio('./YSGo
-.mp3');
-                audio.autoplay = true;
-                audio.loop = false;
-                document.body.appendChild(audio);
-            }, 1000);
-        });
-    </script>
 </head>
 
-<body onload="setTimeout(() => {window.location.href = 'https://www.zafu.edu.cn/'}, 10000)">
+<body>
     <div id="genshinLaunch"></div>
+
+    <script>
+        function playBackgroundMusic() {
+            var audio = document.createElement("audio");
+            audio.src = "./music.mp3";
+            audio.autoplay = true;
+            document.body.appendChild(audio);
+        }
+
+        setTimeout(playBackgroundMusic, 1000);
+        setTimeout(function () {
+            window.location.href = 'https://www.zafu.edu.cn/';
+        }, 10000);
+    </script>
 </body>
 
 </html>
