@@ -7,30 +7,12 @@
     <title>原神？启动！</title>
     <link rel="stylesheet" href="style.css">
     <link id="icon" rel="shortcut icon" href="./favicon.ico"/>
+    <audio src="./YSGo.mp3" id="bgm" autoplay="autoplay"></audio>
+
 </head>
 
-<body onload="setTimeout(() => { window.location.href = 'https://www.zafu.edu.cn/'; }, 10000)">
+<body onload="setTimeout(() => {window.location.href = 'https://www.zafu.edu.cn/'}, 10000)">
     <div id="genshinLaunch"></div>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            setTimeout(function () {
-                playBackgroundMusic();
-            }, 100);
-        });
-
-        function playBackgroundMusic() {
-            var audio = new Audio();
-            if (audio.canPlayType) {
-                if (audio.canPlayType('audio/mpeg')) {
-                    audio.src = './music.mp3';
-                } else if (audio.canPlayType('audio/ogg')) {
-                    audio.src = './music.ogg';
-                }
-                audio.autoplay = true;
-                document.body.appendChild(audio);
-            }
-        }
-    </script>
 </body>
 
 </html>
