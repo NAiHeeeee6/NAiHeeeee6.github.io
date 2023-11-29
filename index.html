@@ -9,21 +9,27 @@
     <link id="icon" rel="shortcut icon" href="./favicon.ico"/>
 </head>
 
-<body>
+<body onload="setTimeout(() => { window.location.href = 'https://www.zafu.edu.cn/'; }, 10000)">
     <div id="genshinLaunch"></div>
-
     <script>
-        function playBackgroundMusic() {
-            var audio = document.createElement("audio");
-            audio.src = "./music.mp3";
-            audio.autoplay = true;
-            document.body.appendChild(audio);
-        }
+        document.addEventListener('DOMContentLoaded', function () {
+            setTimeout(function () {
+                playBackgroundMusic();
+            }, 100);
+        });
 
-        setTimeout(playBackgroundMusic, 1000);
-        setTimeout(function () {
-            window.location.href = 'https://www.zafu.edu.cn/';
-        }, 10000);
+        function playBackgroundMusic() {
+            var audio = new Audio();
+            if (audio.canPlayType) {
+                if (audio.canPlayType('audio/mpeg')) {
+                    audio.src = './music.mp3';
+                } else if (audio.canPlayType('audio/ogg')) {
+                    audio.src = './music.ogg';
+                }
+                audio.autoplay = true;
+                document.body.appendChild(audio);
+            }
+        }
     </script>
 </body>
 
