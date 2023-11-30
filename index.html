@@ -6,11 +6,19 @@
     <title>原神？启动！</title>
     <link rel="stylesheet" href="./css/style.css">
     <link id="icon" rel="shortcut icon" href="./img/favicon.ico"/>
-    <audio src="./audio/YSGo.mp3" autoplay="autoplay" id="YSGo"></audio>
     <script src="./js/YSGo.js"></script>
 </head>
-</head>
-<body onload="setTimeout(() => {window.location.href = 'https://www.zafu.edu.cn/'}, 10000)">
-    <div id="genshinLaunch"></div>
+<body>
+<script>
+    window.onload = function() {
+        setTimeout(function() {
+            window.location.href = 'https://www.zafu.edu.cn/';
+        }, 10000);
+    };
+</script>
+<body>
+    <audio src="./audio/YSGo.mp3" autoplay="autoplay" id="YSGo"></audio>
 </body>
-</html>
+        <div id="genshinLaunch"></div>
+    </body>    </html>
+
