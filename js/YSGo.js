@@ -1,4 +1,6 @@
-// 点击屏幕播放音频
-document.documentElement.addEventListener("click", function () {
+function playAudio() {
     document.getElementById('YSGo').play();
-});
+}
+
+document.documentElement.addEventListener("click",playAudio)
+document.documentElement.addEventListener("touchstart ", playAudio);
