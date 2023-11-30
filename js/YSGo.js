@@ -3,4 +3,3 @@ function playAudio() {
 }
 
 document.documentElement.addEventListener("click",playAudio)
-document.documentElement.addEventListener("touchstart ", playAudio);
