@@ -1,1 +1,1 @@
-源代码：[genshin-startup](https://github.com/NaiHeeeee/genshin-startup)
+[临安原神大学.xyz](http://临安原神大学.xyz)
