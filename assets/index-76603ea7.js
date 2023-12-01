@@ -6928,7 +6928,7 @@ void mainImage(const in vec4 inputColor,const in vec2 uv,out vec4 outputColor)\r
   style="transition-duration: 1.5s;">
   <div class="absolute hv-center">
     <div class="flex flex-col items-center space-y-6">
-      <img src="./https://cdn.jsdelivr.net/gh/NAiHeeeee6/NAiHeeeee6.github.io@1.0.0/Genshin/Img/Genshin.png" class="title block" style="width: 45vmin;" alt="" />
+      <img src="https://cdn.jsdelivr.net/gh/NAiHeeeee6/NAiHeeeee6.github.io@1.0.0/Genshin/Img/Genshin.png" class="title block" style="width: 45vmin;" alt="" />
       <progress class="loader-progress progress-bar" value="0" max="100"></progress>
     </div>
   </div>
@@ -6938,7 +6938,7 @@ void mainImage(const in vec4 inputColor,const in vec2 uv,out vec4 outputColor)\r
     <div class="absolute" style="bottom: 16%;right: 4%;">
       <div class="flex flex-col items-center space-y-3">
         <div class="menu-btn btn-click-me" style="width: 7vmin;height: 7vmin;">
-          <img src="./https://cdn.jsdelivr.net/gh/NAiHeeeee6/NAiHeeeee6.github.io@1.0.0/Genshin/Img/ClickMe.png" class="w-full h-full block" alt="" />
+          <img src="https://cdn.jsdelivr.net/gh/NAiHeeeee6/NAiHeeeee6.github.io@1.0.0/Genshin/Img/ClickMe.png" class="w-full h-full block" alt="" />
         </div>
       </div>
     </div>
@@ -6958,14 +6958,14 @@ void mainImage(const in vec4 inputColor,const in vec2 uv,out vec4 outputColor)\r
   <div class="enter-bg absolute" style="bottom: 4vmin;left: 2%;width: 96%;">
     <div class="flex-center"
       style="height: 4.5vmin;background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.482) 50%, rgba(0, 0, 0, 0) 100%);">
-      <img src="./https://cdn.jsdelivr.net/gh/NAiHeeeee6/NAiHeeeee6.github.io@1.0.0/Genshin/Img/Entry.png" class="enter-entry block" style="height: 2.5vmin;" alt="" />
+      <img src="https://cdn.jsdelivr.net/gh/NAiHeeeee6/NAiHeeeee6.github.io@1.0.0/Genshin/Img/Entry.png" class="enter-entry block" style="height: 2.5vmin;" alt="" />
     </div>
   </div>
 </div>
 <div class="loading-element fixed z-4 top-0 left-0 w-full h-full bg-white select-none overflow-hidden hollow">
   <div class="absolute hv-center">
     <div class="loading-element-wrapper">
-      <img src="./https://cdn.jsdelivr.net/gh/NAiHeeeee6/NAiHeeeee6.github.io@1.0.0/Genshin/Img/Elements.png" class="loading-element-img" alt="" />
+      <img src="https://cdn.jsdelivr.net/gh/NAiHeeeee6/NAiHeeeee6.github.io@1.0.0/Genshin/Img/Elements.png" class="loading-element-img" alt="" />
     </div>
   </div>
 </div>
